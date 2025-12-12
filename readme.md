@@ -64,7 +64,7 @@ wpko-wheres-my-menu/
     └── class-wpko-wmm-menu-shortcodes.php
 ```
 
-## 🔐 Security and Best Practices Implemented
+## Security and Best Practices Implemented
 
 * **Nonce Usage:** Not strictly required for the admin-menu/shortcode-display features, but it is implicitly covered by standard WordPress admin checks.
 * **Capability Checks:** `current_user_can( 'edit_theme_options' )` is used to guard administrative pages and output admin error messages.
